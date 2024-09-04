@@ -7,3 +7,20 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# Songs should have attributes for title, album, artist, year
+
+Song.create(title: "Creep",
+            album: "Pablo Honey",
+            artist: "Radio Head",
+            year: 1993)
+
+Song.create(title: "Purple Rain",
+            album: "Purple Rain",
+            artist: "Prince",
+            year: 1984)
+
+Song.create(title: "It's All Coming Back to Me Now",
+            album: "Falling Into You",
+            artist: "Celine Dion",
+            year: 1996)
